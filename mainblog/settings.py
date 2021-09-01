@@ -22,7 +22,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR,'templates')
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-43kk#89g)hw)zcyeqyh%#=^1l6lci=x=-g^4qhi4e%p*#4_uy&'
+SECRET_KEY = 'django-insecure-#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -84,9 +84,9 @@ X_FRAME_OPTIONS = "SAMEORIGIN"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'novendsblog',
-        'USER': 'novend',
-        'PASSWORD': 'MOrald7.com',
+        'NAME': '#',
+        'USER': '#',
+        'PASSWORD': '#',
         'HOST': 'localhost',
         'PORT': '',
     }
